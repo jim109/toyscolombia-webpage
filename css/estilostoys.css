@@ -63,9 +63,23 @@ figure {
 .hero {
 }
 
-.sales {
+.grid {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin: 10px;
+}
+
+.sales {
   justify-content: center;
   text-align: center;
   border: 1px tomato solid;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
 }
